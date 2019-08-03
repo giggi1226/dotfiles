@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+alias g='git'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gs='git status'
