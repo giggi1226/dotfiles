@@ -30,6 +30,9 @@ chmod +x install.sh
 
 ### Resources used
 [Sourabh MacOS Setup](https://sourabhbajaj.com/mac-setup/)
+
 [Marvin J. Cortés dotfiles](https://github.com/mcortes19/dotfiles)
+
 [iterm2 material design](https://github.com/MartinSeeler/iterm2-material-design) by [Martin Steeler](https://github.com/MartinSeeler)
+
 [pure prompt](https://github.com/sindresorhus/pure) by [Sindre Sorhus](https://github.com/sindresorhus)
