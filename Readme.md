@@ -6,6 +6,8 @@ I have had to do this quite a few times and it got too repetative for my taste, 
 Feel free to use this repo as your baseline for your own dotfiles
 
 ## things installed
+
+### Apps
 * google chrom
 * VS Code
 * iTerm2
@@ -14,12 +16,17 @@ Feel free to use this repo as your baseline for your own dotfiles
 * dropbox
 * alfred
 * intellij
+
+### Non Apps
 * nvm
 * zsh syntax highlighting
 * fuzzy find
 * Bash completion
+* pure prompt
+
 
 ## My Terminal
+I used pure prompt, I really enjoy the aesthetic and how clean it looks.
 ![terminal](img/terminal.png)
 
 ### Usage
