@@ -20,7 +20,7 @@ Feel free to use this repo as your baseline for your own dotfiles
 * Bash completion
 
 ## My Terminal
-![terminal](img/terminal.jpg)
+![terminal](img/terminal.png)
 
 ### Usage
 ```
