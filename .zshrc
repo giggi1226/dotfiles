@@ -22,7 +22,6 @@ prompt pure
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source ~/env.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
