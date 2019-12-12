@@ -10,3 +10,5 @@ nvm use node
 npm install --global pure-prompt
 
 source ./symlink.sh
+
+chsh -s $(which zsh)

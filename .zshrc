@@ -9,10 +9,7 @@ for file in ~/.{aliases,functions,path}; do
 done;
 unset file;
 
-autoload -U promptinit; promptinit
-
-
-prompt pure
+ZSH_THEME="refined"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -25,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export NVM_DIR="/Users/gisellepacheco/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
