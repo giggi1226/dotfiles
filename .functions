@@ -19,3 +19,7 @@ fh() {
 }
 # Create a folder and move into it in one command
 function mkcd() { mkdir -p "$@" && cd "$_"; }
+
+lg() {
+    column -t -s "|" $HOME/Documents/test.txt | fzf --query=$1 | awk '{print $NF}' | xargs open -a "Google Chrome"
+}
