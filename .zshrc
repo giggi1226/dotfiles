@@ -9,7 +9,9 @@ for file in ~/.{aliases,functions,path}; do
 done;
 unset file;
 
-ZSH_THEME="refined"
+autoload -U promptinit; promptinit
+
+
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -19,6 +21,7 @@ ZSH_THEME="refined"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+prompt pure
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
