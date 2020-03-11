@@ -20,6 +20,7 @@ brew cask install java
 brew cask install dropbox
 brew cask install alfred
 brew cask install intellij-idea
+brew cask install postman
 
 
 if test ! $(which zsh)
@@ -32,4 +33,5 @@ fi
 brew install zsh-syntax-highlighting
 brew install fzf
 brew install bash-completion
+brew install nginx
 
