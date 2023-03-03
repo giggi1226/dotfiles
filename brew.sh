@@ -12,15 +12,15 @@ brew upgrade
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install boostnote
-brew cask install java
-brew cask install dropbox
-brew cask install alfred
-brew cask install intellij-idea
-brew cask install postman
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask obsidian
+brew install --cask java
+brew install --cask alfred
+brew install --cask intellij-idea
+brew install --cask webstorm
+brew install --cask postman
 
 
 if test ! $(which zsh)
@@ -34,4 +34,7 @@ brew install zsh-syntax-highlighting
 brew install fzf
 brew install bash-completion
 brew install nginx
+brew install nvm
+
+mkdir ~/.nvm
 

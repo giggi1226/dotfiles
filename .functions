@@ -21,5 +21,5 @@ fh() {
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 
 lg() {
-    column -t -s "|" $HOME/Documents/test.txt | fzf --query=$1 | awk '{print $NF}' | xargs open -a "Google Chrome"
+    column -t -s "|" $HOME/Documents/helpful-links.txt | fzf --query=$1 | awk '{print $NF}' | xargs open -a "Google Chrome"
 }
