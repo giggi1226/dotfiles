@@ -2,15 +2,12 @@
 if test ! $(which brew)
 then
     echo "Installing Homebrew..."
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 # echo $(which brew)
 brew update
 
 brew upgrade
-
-brew tap caskroom/cask
-brew tap caskroom/versions
 
 brew install --cask google-chrome
 brew install --cask iterm2
@@ -37,4 +34,7 @@ brew install nginx
 brew install nvm
 
 mkdir ~/.nvm
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 

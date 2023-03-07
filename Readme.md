@@ -8,14 +8,14 @@ Feel free to use this repo as your baseline for your own dotfiles
 ## things installed
 
 ### Apps
-* google chrom
+* google chrome
 * VS Code
 * iTerm2
-* boostnote
+* obsidian
 * java
-* dropbox
 * alfred
 * intellij
+* webstorm
 
 ### Non Apps
 * nvm
@@ -41,5 +41,7 @@ chmod +x install.sh
 [Marvin J. Cortés dotfiles](https://github.com/mcortes19/dotfiles)
 
 [iterm2 material design](https://github.com/MartinSeeler/iterm2-material-design) by [Martin Steeler](https://github.com/MartinSeeler)
+
+[snazzy iterm](https://github.com/sindresorhus/iterm2-snazzy)
 
 [pure prompt](https://github.com/sindresorhus/pure) by [Sindre Sorhus](https://github.com/sindresorhus)
