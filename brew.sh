@@ -18,6 +18,9 @@ brew install --cask alfred
 brew install --cask intellij-idea
 brew install --cask webstorm
 brew install --cask postman
+brew install --cask notion
+brew install --cask spotify
+brew install --cask firefox
 
 
 if test ! $(which zsh)
