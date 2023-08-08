@@ -2,4 +2,6 @@
 
 # Add commonly used folders to $PATH
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 export JAVA_HOME="`/usr/libexec/java_home -v 12`"
