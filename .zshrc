@@ -9,7 +9,6 @@ for file in ~/.{aliases,functions,path}; do
 done;
 unset file;
 
-autoload -U promptinit; promptinit
 
 
 
@@ -21,14 +20,16 @@ autoload -U promptinit; promptinit
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+autoload -U promptinit; promptinit
 prompt pure
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR=$HOME/.nvm
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+. ~/.nvm/nvm.sh

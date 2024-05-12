@@ -9,7 +9,6 @@ brew update
 
 brew upgrade
 
-brew install --cask google-chrome
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask obsidian
@@ -20,7 +19,7 @@ brew install --cask webstorm
 brew install --cask postman
 brew install --cask notion
 brew install --cask spotify
-brew install --cask firefox
+brew install --cask librewolf
 
 
 if test ! $(which zsh)
@@ -33,11 +32,4 @@ fi
 brew install zsh-syntax-highlighting
 brew install fzf
 brew install bash-completion
-brew install nginx
-brew install nvm
-
-mkdir ~/.nvm
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
 
